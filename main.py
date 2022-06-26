@@ -3,8 +3,6 @@ import multiprocessing
 
 
 def listen():
-    f = open("unBeautiful.txt", "w")
-
 
     def show(key):
         pressed_key = str(key).replace("'", "")
